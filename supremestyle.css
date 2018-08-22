@@ -1,0 +1,39 @@
+body {
+    background:black;
+    text-align: left;
+    width: 1000px;
+    margin: 200px auto; 
+    height: 50%;
+}
+a {
+    color: white;
+    text-decoration: none;
+    line-height: 26px;
+    transition-property: all;
+    transition-duration: 1s;
+    font-size: 9pt; 
+    font-family:  'Courier New', monospace;
+    position: relative;
+}
+.social {
+    display: inline;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+ul{
+    list-style-type:none;
+    padding: 0px;
+}
+.logo {
+    height: 100px;
+}
+.span:hover {
+    background-color: red;
+}
+@media (max-width: 500px){
+    body {
+    background: red;
+    }
+}
